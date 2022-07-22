@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	stack<char>s;
+	string sr;
+	sr ="son dfiod";
+	for(int i=0;i<sr.size();i++){
+		s.push(sr[i]);
+	}
+
+	for(int i=0;i<sr.size();i++){
+		cout<<s.top();
+		s.pop();
+	}
+return 0;}
